@@ -78,27 +78,31 @@ void draw(){
    switch(q){
     //vangogh
     case 0 :
-    text("vangogh",x,y);
+    text("Almond blossom",x,y);
+    text("by Vincent Van Gogh",x,y+20);
+    text("painted in 1890",x,y+40);
     break;
     //hokusai
     case 1:
-    textSize(20);
-    text("hokusai",x,y);;
+    text("On the trail",x,y);
+    text("by Hokusai",x,y+20);
     break;
     //glitch
     case 2 :
-    textSize(20);
     text("glitch",x,y);
+    text("The destruction of a file",x,y+20);
+    text("by yonmaii",x,y+40);
     break;
     //jacaranda
     case 3 :
-    textSize(20);
     text("jacaranda",x,y);
+    text("Jacaranda mimosifolia",x,y+20);
+    text("nativa de Mèxico",x,y+40);
     break;
     //eye
     case 4 :
-    textSize(20);
     text("eye",x,y);
+    text("un simple ojo", x, y);
     break;
   }
   
