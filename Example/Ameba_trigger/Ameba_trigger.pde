@@ -102,7 +102,7 @@ void draw(){
     //eye
     case 4 :
     text("eye",x,y);
-    text("un simple ojo", x, y);
+    text("un simple ojo", x, y+20);
     break;
   }
   
